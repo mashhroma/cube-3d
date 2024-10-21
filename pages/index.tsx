@@ -4,12 +4,18 @@ import JSViewer from "@/components/JSViewer";
 
 export default function Home() {
 	return (
-		<div>
-			<CanvasBlock>
-				<Cube3D />
-			</CanvasBlock>
+		<div className="container">
+			<div>
+				<h3>Библиотеки fiber для react</h3>
+				<CanvasBlock>
+					<Cube3D />
+				</CanvasBlock>
+			</div>
 
-			<JSViewer />
+			<div>
+				<h3>Библиотеки js-3d-model-viewer</h3>
+				<JSViewer />
+			</div>
 		</div>
 	);
 }
